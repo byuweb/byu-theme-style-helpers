@@ -4,36 +4,45 @@ $mobile_sidebar_width: 20%;
 $mobile_main_width: 100% - $mobile_sidebar_width;
 $mobile_max_width: 1023px;
 $large_screen_start_width: 1024px;
-// colors
+// ---- colors ---
+
+// blues
 $navy: #002E5D;
-$lightestblue: #C4CFDA;
-$lightblue: #A6B6C7;
-$lightmedblue: #889FB7;
-$medblue: #697F96;  // was #889FB7  but it couldn't have white on it with enough contrast
-// 697F96 is enough contrast for large text
-$darkmedblue: #5B728A;  // #5B728A is enough contrast for small white text
+$medblue: #869DB5;
+$lightblue: #e0f0cc;
 
-
-$dullnavy: desaturate($navy, 30%);
-$dullblue: desaturate($navy, 70%);
-$brightblue: lighten($navy, 50%);
-$lightestblue: lighten($dullblue, 50%);
-$mediumblue: darken($lightestblue, 3%);
-$xlightgray: #f2f2f2;
-$lightgray: #e5e5e5;
-$medgray: #9b9b9b;
-$gray: #767676;
-$darkgray: #6a6a6b;
-$darkestgray: #444444;
 $royal: #003DA5;
 $royallight: #114BAD;
 
-//other colors
-$greenlightened: #579600; // was #72B518;
-$green: #4D8501; // was #6EAE17;
-$greendarkened: #498000 ; // was #6AA816;
+$red: #B3041A;
 
-// other
+$yellow: #FCC015;
+$lightyellow: #fef2d0;
+
+$teal: #84DCB4;
+$lightteal: #e5f7ef;
+
+$green: #66B200; // doesn't work with accessibility
+$lightgreen: #e0f0cc;
+//$green: #4D8501; // was #6EAE17;
+//$greendarkened: #498000 ; // was #6AA816;
+
+// other blues Aleni has used:
+//$lightestblue: #C4CFDA;
+//$lightblue: #A6B6C7;
+//$lightmedblue: #889FB7;
+//$medblue: #697F96;  // was #889FB7  but it couldn't have white on it with enough contrast
+//$darkmedblue: #5B728A;  // #5B728A is enough contrast for small white text
+
+
+// There are 6 grays right now..
+$xlightgray: #f2f2f2;
+$lightgray: #e5e5e5;
+//$medgray: #9b9b9b; // extra
+$medgray: #767676;
+$darkgray: #6a6a6b; // least used gray
+$darkestgray: #141414;  // this should be used for body & default text.
+
 
 
 $nav_gradient: 10%;
@@ -51,6 +60,10 @@ $nav_gradient_2: 5%;
 
 /* ----------- Default Styling ------- */
 
-
+body {
+  padding: 0px;
+  margin: 0px;
+  color: $darkestgray;
+}
 
 

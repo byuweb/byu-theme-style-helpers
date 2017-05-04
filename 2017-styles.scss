@@ -1,19 +1,29 @@
-/* SASS Variables ------------------- */
+/* ----------- SASS Variables ----------- */
 
-$mobile_sidebar_width: 20%;
-$mobile_main_width: 100% - $mobile_sidebar_width;
 $mobile_max_width: 1023px;
 $large_screen_start_width: 1024px;
-// ---- colors ---
 
-// blues
+/*  // ---- colors ----  //  */
+
+/* blues */
 $navy: #002E5D;
 $medblue: #869DB5;
-$lightblue: #e0f0cc;
-
+$lightBlue: #e0f0cc;
+$xlightblue: #C3DDF9;
+$brightBlue: #0057B8;
 $royal: #003DA5;
-$royallight: #114BAD;
+$lightRoyal: #114BAD;
 
+/* grays */
+$xlightgray: #f2f2f2;
+$lightgray: #e5e5e5;
+$lightergray: #e6e6e6;
+$gray: #c5c5c5;
+$medgray: #666;
+$darkgray: #6a6a6b; // least used gray
+$darkestgray: #141414;  // this should be used for body & default text.
+
+/* other colors */
 $red: #B3041A;
 
 $yellow: #FCC015;
@@ -24,46 +34,140 @@ $lightteal: #e5f7ef;
 
 $green: #66B200; // doesn't work with accessibility
 $lightgreen: #e0f0cc;
-//$green: #4D8501; // was #6EAE17;
-//$greendarkened: #498000 ; // was #6AA816;
 
-// other blues Aleni has used:
-//$lightestblue: #C4CFDA;
-//$lightblue: #A6B6C7;
-//$lightmedblue: #889FB7;
-//$medblue: #697F96;  // was #889FB7  but it couldn't have white on it with enough contrast
-//$darkmedblue: #5B728A;  // #5B728A is enough contrast for small white text
-
-
-// There are 6 grays right now..
-$xlightgray: #f2f2f2;
-$lightgray: #e5e5e5;
-//$medgray: #9b9b9b; // extra
-$medgray: #767676;
-$darkgray: #6a6a6b; // least used gray
-$darkestgray: #141414;  // this should be used for body & default text.
-
-
-
+/* gradients */
 $nav_gradient: 10%;
 $nav_gradient_2: 5%;
+
+/* for more detail on colors, refer to the brand guide at https://brand.byu.edu/guidelines/color */
+
+
+/* ----------- Default Styling ----------- */
+
 @mixin sidebar-inner-shadowbox() {
   -webkit-box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
   box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
 }
+
+@mixin main-outer-shadowbox() {
+  -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
 @mixin no-box-shadow () {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-/* ----------- Default Styling ------- */
+@mixin display-flex() {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+
+@mixin button() {
+  text-align: center;
+  padding: 9px 0 !important;
+}
+
+/*  // -----------------  //  */
+
+html {
+  height: 100%;
+}
 
 body {
-  padding: 0px;
-  margin: 0px;
+  min-height: 100%;
   color: $darkestgray;
 }
 
+a {
+  color: $royal;
+}
 
+/*  // ---- fonts & sizing ----  //  */
+
+@media screen and (max-width: $mobile_max_width){
+  h2 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: $large_screen_start_width) {
+  h2 {
+    font-size: 1.6875em;
+  }
+}
+
+/* font families */
+p, span, div {
+  font-family: "Gotham A","Gotham B", Helvetica, sans-serif;
+}
+
+p, span, div {
+  font-family: "Sentinel A","Sentinel B", Georgia, serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Vitesse A", "Vitesse B", Georgia, serif;
+}
+
+/*  // ---- often used classes ----  //  */
+
+.hidden {
+  display: none;
+}
+
+.panel {
+  background: #fff;
+}
+
+.gray-button {
+  background-color: $lightgray !important;
+  padding: 9px 12px !important;
+  font-size: 12px;
+  a {
+    color: $navy;
+  }
+}
+
+.medgray-button {
+  background-color: $medgray !important;
+  padding: 9px 12px !important;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  height: 30px;
+  a {
+    color: #fff;
+  }
+}
+
+.medgray-button:hover {
+  background: #a2a2a2;
+}
+
+.royal-button {
+  background-color: $royal;
+  padding: 9px 12px !important;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  a {
+    color: #fff;
+  }
+}
+
+.royal-button:hover {
+  background: $lightRoyal;
+}

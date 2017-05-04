@@ -86,7 +86,8 @@ html {
 }
 
 body {
-  min-height: 100%;
+  margin: 0;
+  padding: 0;
   color: $darkestgray;
 }
 
@@ -119,6 +120,10 @@ p, span, div {
 
 h1, h2, h3, h4 {
   font-family: "Vitesse A", "Vitesse B", Georgia, serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Sentinel A","Sentinel B", Georgia, serif;
 }
 
 /*  // ---- often used classes ----  //  */

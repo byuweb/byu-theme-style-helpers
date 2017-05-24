@@ -1,0 +1,13 @@
+h1, h2, h3, h4 {
+    font-family: "Vitesse A", "Vitesse B", Georgia, serif;
+}
+
+p, span, div {
+    font-family: "Gotham A","Gotham B", Helvetica, sans-serif;
+}
+
+/* -- making sure it doesn't override some BYU Header specifics -- */
+[slot="site-title"] h1, [slot="site-title"] span, [slot="site-title"] div, [slot="site-title"] a,
+#site-name p, #site-name span, #site-name div, #site-name  a {
+    font-family: "Vitesse A", "Vitesse B", serif;
+}

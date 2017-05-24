@@ -1,0 +1,20 @@
+/* Instructions:
+
+Place a class like 'two-column' on a container div, and then place 2 or 3 child div's inside that container div.
+
+*/
+
+.two-columns, .two-column, .three-columns, .three-column {
+	  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	justify-content: space-between;
+}
+.two-columns > div, .two-column > div {
+		width: 48%;
+}
+.three-columns > div, .three-column > div {
+		width: 31%;
+}

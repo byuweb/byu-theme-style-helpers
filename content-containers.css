@@ -1,0 +1,9 @@
+.byu-container-lightgray {
+  background: #e5e5e5;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px 0px;
+  color: #444;
+}
+
+/* we could add more things like this - simple styled containers for content to be placed in */

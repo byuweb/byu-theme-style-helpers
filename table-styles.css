@@ -1,0 +1,39 @@
+.byu-table {
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Gotham A, Gotham B, Helvetica, sans-serif;
+    max-width: 75%;
+}
+
+.byu-row {
+    padding: 10px;
+}
+
+.byu-column {
+    padding: 10px;
+}
+
+.byu-even {
+    background-color: #fff;
+}
+
+.byu-odd {
+    background-color: #e5e5e5;
+}
+
+.byu-column-label {
+    background-color: #fff;
+    color: #002e5d;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.byu-img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 10px;
+}

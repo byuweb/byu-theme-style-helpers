@@ -1,16 +1,24 @@
-.sidebar-inner-shadowbox {
+.byu-inner-shadow {
     -webkit-box-shadow: inset -3px 0 5px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: inset -3px 0 5px 0 rgba(0, 0, 0, 0.4);
     box-shadow: inset -3px 0 5px 0 rgba(0, 0, 0, 0.4);
 }
 
-.main-outer-shadowbox {
+.byu-outer-shadow-small {
+    
+}
+
+.byu-outer-shadow-medium {
     -webkit-box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.4);
     box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.4);
 }
 
-.no-box-shadow {
+.byu-outer-shadow-large {
+    
+}
+
+.byu-no-shadow {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;

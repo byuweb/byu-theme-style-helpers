@@ -7,4 +7,4 @@ In most cases, they provide classes like .byu-button and .byu-table-header. Clas
 so it will ideally not interfere with existing styling.
 
 There are some exceptions, where it is directly styling elements. The font-related files, for example, set fonts for 
-headings and paragraphs and divs, etc.
+headings and paragraphs and divs, etc. In these cases, the files are CAPITALIZED and you should review them thoroughly before loading them on your site.

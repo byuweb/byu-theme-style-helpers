@@ -66,3 +66,13 @@
     background-color: #002e5d;
     color: white;
 }
+/* ---- gray option --- */
+.byu-modal-header.gray,
+.byu-modal-footer.gray {
+   background-color: #767676;   
+}
+/* ---- dark gray option --- */
+.byu-modal-header.dark-gray,
+.byu-modal-footer.dark-gray {
+   background-color: #141414;   
+}

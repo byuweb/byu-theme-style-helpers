@@ -1,1 +1,44 @@
+/* JS for the accordion can be found at https://codepen.io/blaketm/pen/pPXyVj */
 
+button.byu-accordion {
+    background-color: #002E5D;
+    color: #FFF;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    width: 100%;
+}
+
+button.byu-accordion::after {
+    content: '+';
+    font-size: 13px;
+    color: #FFF;
+    float: right;
+    text-align: right;
+    margin-left: 5px;
+}
+
+button.byu-accordion.active::after {
+    content: '-';
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+button.byu-accordion.active,
+button.byu-accordion:hover {
+    background-color: #2B4D6E;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+div.byu-accordion-panel {
+    padding: 0 18px;
+    background-color: #F2F2F2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}

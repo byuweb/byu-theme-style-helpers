@@ -3,37 +3,45 @@
     font-size: 12px;
     font-weight: normal;
     border: none;
-    text-align: center;
     vertical-align: middle;
     font-family: Gotham A, Gotham B, Helvetica, sans-serif;
-    max-width: 75%;
-}
-
-.byu-row {
     padding: 10px;
-}
-
-.byu-column {
-    padding: 10px;
-}
-
-.byu-even {
+    border-collapse: collapse;
+    margin: 30px;
+    text-align: left;
     background-color: #fff;
 }
 
-.byu-odd {
-    background-color: #e5e5e5;
-}
-
-.byu-column-label {
-    background-color: #fff;
+.byu-table th {
     color: #002e5d;
-    font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 14px;
 }
 
-.byu-img {
-    max-width: 50px;
-    max-height: 50px;
-    margin: 10px;
+.byu-table td {
+    padding-top: 5px;
+    font-weight: 200;
+}
+
+.byu-table img {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 50px 5px 20px;
+    min-height: 80px;
+}
+
+.byu-table a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #003da5;
+}
+
+.byu-table tr:nth-child(odd) {
+    vertical-align: top;
+}
+
+.byu-table tr:nth-child(even) {
+    background-color: #e5e5e5;
+    vertical-align: top;
 }

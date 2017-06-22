@@ -1,0 +1,11 @@
+---
+name: BYU Theme Style Helpers
+description: Additional BYU Styles for Page Elements, etc
+resources:
+  - ./**
+entrypoints:
+  buttons.css: 'Adds button classes for BYU buttons - several BYU color options available.'
+  tables.css: 'Adds a class to style tables nicely with BYU colors'
+  box-shadows.css: 'Adds box-shadow classes for elements.'
+  
+docs: https://github.com/byuweb/byu-theme-style-helpers

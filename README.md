@@ -21,7 +21,7 @@ Select css files that have been marked as ready for widespread use have been inc
 
 These files can then be accessed via this format:
 
-##Example Endpoints
+## Example Endpoints
 
 ```entrypoints:
   buttons.css: 'Adds button classes for BYU buttons - several BYU color options available.'
@@ -29,7 +29,7 @@ These files can then be accessed via this format:
   box-shadows.css: 'Adds box-shadow classes for elements.'
 ```
 
-##Example Reference Points
-```https://cdn.byu.edu/byu-theme-style-helpers/latest/buttons.css```
-```https://cdn.byu.edu/byu-theme-style-helpers/latest/tables.css```
-```https://cdn.byu.edu/byu-theme-style-helpers/latest/box-shadows.css```
+## Example Reference Points
+```https://cdn.byu.edu/byu-theme-style-helpers/latest/buttons.css
+https://cdn.byu.edu/byu-theme-style-helpers/latest/tables.css
+https://cdn.byu.edu/byu-theme-style-helpers/latest/box-shadows.css```

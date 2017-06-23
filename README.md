@@ -30,6 +30,8 @@ These files can then be accessed via this format:
 ```
 
 ## Example Reference Points
-```https://cdn.byu.edu/byu-theme-style-helpers/latest/buttons.css
+```
+https://cdn.byu.edu/byu-theme-style-helpers/latest/buttons.css
 https://cdn.byu.edu/byu-theme-style-helpers/latest/tables.css
-https://cdn.byu.edu/byu-theme-style-helpers/latest/box-shadows.css```
+https://cdn.byu.edu/byu-theme-style-helpers/latest/box-shadows.css
+```

@@ -52,7 +52,7 @@ Adding the additional classes 'gray-header' or 'navy-header' will allow for a so
 }
 
 /* ---- Gray header ---- */
-.gray-header th {
+.byu-table.gray-header th {
         background-color: #6a6a6b;
         color: #fff;
         font-weight: 500;
@@ -60,7 +60,7 @@ Adding the additional classes 'gray-header' or 'navy-header' will allow for a so
      }
 
 /* ---- Navy header ---- */
-.navy-header th {
+.byu-table.navy-header th {
     background-color: #002e5d;
     color: #fff;
     font-weight: 500;

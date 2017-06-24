@@ -1,6 +1,11 @@
 /* JS for the accordion can be found at https://codepen.io/blaketm/pen/pPXyVj */
 
-button.byu-accordion {
+/*
+ * Apply .byu-accordion to the bar//tab of your accordion
+ * Apply .byu-accordion-panel to content of each section of teh accordion
+ */
+
+.byu-accordion {
     background-color: #002E5D;
     color: #FFF;
     cursor: pointer;
@@ -12,7 +17,7 @@ button.byu-accordion {
     width: 100%;
 }
 
-button.byu-accordion::after {
+.byu-accordion::after {
     content: '+';
     font-size: 13px;
     color: #FFF;
@@ -21,21 +26,21 @@ button.byu-accordion::after {
     margin-left: 5px;
 }
 
-button.byu-accordion.active::after {
+.byu-accordion.active::after {
     content: '-';
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Add a background color to the  if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 
-button.byu-accordion.active,
-button.byu-accordion:hover {
+.byu-accordion.active,
+.byu-accordion:hover {
     background-color: #2B4D6E;
 }
 
 
 /* Style the accordion panel. Note: hidden by default */
 
-div.byu-accordion-panel {
+.byu-accordion-panel {
     padding: 0 18px;
     background-color: #F2F2F2;
     max-height: 0;

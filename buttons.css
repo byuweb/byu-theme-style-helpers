@@ -32,33 +32,33 @@
 /* --- white buttons --- */
 
 /* white/gray button */
-.white {
+.byu-button.white {
     background-color: #fff;
     color: #141414;
     border: 1px solid #c5c5c5;
 }
 
-.white:hover {
+.byu-button.white:hover {
     background-color: #ddd;
 }
 
-.white:active {
+.byu-button.white:active {
     background-color: #ccc;
 }
 
 /* white/navy button */
-.whitenavy {
+.byu-button.whitenavy {
     background-color: #fff;
     color: #002e5d;
     border: 1px solid #002e5d;
 }
 
-.whitenavy:hover {
+.byu-button.whitenavy:hover {
     background-color: #869db5;
     color: #fff;
 }
 
-.whitenavy:active {
+.byu-button.whitenavy:active {
     background-color: #002e5d;
     color: #fff;
 }
@@ -67,30 +67,30 @@
 /* --- grey buttons --- */
 
 /* light gray button */
-.lightgray {
+.byu-button.lightgray {
     background-color: #E5E5E5;
     color: #002e5d;
 }
 
-.lightgray:hover {
+.byu-button.lightgray:hover {
     background-color: #F2F2F2;
 }
 
-.lightgray:active {
+.byu-button.lightgray:active {
     background-color: #666;
 }
 
 /* medgray button */
-.medgray {
+.byu-button.medgray {
     background-color: #666;
     color: #fff;
 }
 
-.medgray:hover {
+.byu-button.medgray:hover {
     background-color: #a2a2a2;
 }
 
-.medgray:active {
+.byu-button.medgray:active {
     background-color: #7a7a7a;
 }
 
@@ -98,131 +98,131 @@
 /* --- blue buttons --- */
 
 /* royal blue button */
-.royal {
+.byu-button.royal {
     background-color: #003da5;
     color: #fff;
 }
 
-.royal:hover {
+.byu-button.royal:hover {
     background-color: #114bad;
 }
 
-.royal:active {
+.byu-button.royal:active {
     background-color: #002d95;
 }
 
 /* navy button */
-.navy {
+.byu-button.navy {
     background-color: #002e5d;
     color: #fff;
 }
 
-.navy:hover {
+.byu-button.navy:hover {
     background-color: #003da5;
 }
 
-.navy:active {
+.byu-button.navy:active {
     background-color: #114bad;
 }
 
 /* light blue button */
-.lightblue {
+.byu-button.lightblue {
     background-color: #869db5;
     color: #fff;
 }
 
-.lightblue:hover {
+.byu-button.lightblue:hover {
     background-color: #96adc5;
 }
 
-.lightblue:active {
+.byu-button.lightblue:active {
     background-color: #768da5;
 }
 
 /* extra light blue button */
-.xlightblue {
+.byu-button.xlightblue {
     background-color: #c3ddf9;
     color: #002e5d;
 }
 
-.xlightblue:hover {
+.byu-button.xlightblue:hover {
     background-color: #cfdfff;
 }
 
-.xlightblue:active {
+.byu-button.xlightblue:active {
     background-color: #b3cde9;
 }
 
 /* --- secondary color buttons --- */
 
 /* teal button */
-.teal {
+.byu-button.teal {
     background-color: #84dcb4;
     color: #fff;
 }
 
-.teal:hover {
+.byu-button.teal:hover {
     background-color: #e5f7ef;
     color: #002e5d;
 }
 
-.teal:active {
+.byu-button.teal:active {
     background-color: #74cca4;
     color: #002e5d;
 }
 
 /* red button - for Errors only */
-.red {
+.byu-button.red {
     background-color: #b3041a;
     color: #fff;
 }
 
-.red:hover {
+.byu-button.red:hover {
     background-color: #d3243A;
 }
 
-.red:active {
+.byu-button.red:active {
     background-color: #B3041A;
 }
 
 /* yellow button */
-.yellow {
+.byu-button.yellow {
     background-color: #fcc015;
     color: #002e5d;
 }
 
-.yellow:hover {
+.byu-button.yellow:hover {
     background-color: #fef2d0;
 }
 
-.yellow:active {
+.byu-button.yellow:active {
     background-color: #ffcf1a;
 }
 
 /* green button */
-.green {
+.byu-button.green {
     background-color: #66B200;
     color: #fff;
 }
 
-.green:hover {
+.byu-button.green:hover {
     background-color: #86d220;
 }
 
-.green:active {
+.byu-button.green:active {
     background-color: #56a200;
 }
 
 /* orange button */
-.orange {
+.byu-button.orange {
     background-color: #d57301;
     color: #fff;
 }
 
-.orange:hover {
+.byu-button.orange:hover {
     background-color: #f59321;
 }
 
-.orange:active {
+.byu-button.orange:active {
     background-color: #c56300;
 }

@@ -1,5 +1,6 @@
 /* Instructions:
 Add the class 'byu-table' to any tables you want this styling applied to.
+Adding the additional classes 'gray-header' or 'navy-header' will allow for a solid header bar.
 */
 
 .byu-table {
@@ -48,4 +49,20 @@ Add the class 'byu-table' to any tables you want this styling applied to.
 .byu-table tr:nth-child(even) {
     background-color: #e5e5e5;
     vertical-align: top;
+}
+
+/* ---- Gray header ---- */
+.byu-table.gray-header th {
+        background-color: #6a6a6b;
+        color: #fff;
+        font-weight: 500;
+        padding: 8px 0;
+     }
+
+/* ---- Navy header ---- */
+.byu-table.navy-header th {
+    background-color: #002e5d;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 0;
 }

@@ -7,5 +7,6 @@ entrypoints:
   buttons.css: 'Adds button classes for BYU buttons - several BYU color options available.'
   tables.css: 'Adds a class to style tables nicely with BYU colors'
   box-shadows.css: 'Adds box-shadow classes for elements.'
+  popups-modals.css: 'Adds byu theming if you are using a byu-modal popup element. See online for more documentation.'
   
 docs: https://github.com/byuweb/byu-theme-style-helpers

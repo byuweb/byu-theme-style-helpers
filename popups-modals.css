@@ -1,3 +1,4 @@
+-/*For accompanying javascript/html for the modal, go to https://codepen.io/arzon94/pen/pPYGgE */
 .byu-modal {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -139,7 +140,7 @@
     -moz-box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.35);
     box-shadow: -3px 0 5px 0 rgba(0, 0, 0, 0.35);
 }
-.grey{
+.gray{
   background-color: #767676;
 }
 .byu-modal-body a{

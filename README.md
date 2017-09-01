@@ -14,7 +14,7 @@ TO USE
 ------------
 1. Load the CSS:
 * You are welcome to download or git clone these files. 
-* Reference css files from the cdn.
+* Reference css files from the cdn. (See available links below)
 
 2. Add the `byu-something` classes to your elements to make use of the styling. All files with lowercase names (i.e. 'byu-button', not 'Font..') have css that has been namespaced with `byu-` prefixes on classes.
 
@@ -36,8 +36,18 @@ These files can then be accessed via this format:
 ```
 
 ## Example Reference Points
+Links should be in this format:
+```https://cdn.byu.edu/byu-theme-style-helpers/latest/[name-of-file].css
+```
+Current List of options:
 ```
 https://cdn.byu.edu/byu-theme-style-helpers/latest/buttons.css
 https://cdn.byu.edu/byu-theme-style-helpers/latest/tables.css
 https://cdn.byu.edu/byu-theme-style-helpers/latest/box-shadows.css
+https://cdn.byu.edu/byu-theme-style-helpers/latest/popups-modals.css
 ```
+
+## Don't See Something?
+Help us out! There are a number of css files in this project that have been started, and 
+we could use help flushing them out. Submit a pull request or discuss in the byuweb slack team 
+(#engineering-group channel) what you can do to help make more options available.

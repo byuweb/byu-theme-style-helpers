@@ -70,6 +70,7 @@
 .byu-modal-footer {
     border-radius: 0px 0px 10px 10px;
     padding: 0.2% 5%;
+    min-height: 90px;
     background-color: #002e5d;
     color: white;
 }

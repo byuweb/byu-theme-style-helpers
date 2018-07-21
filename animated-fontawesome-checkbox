@@ -1,0 +1,85 @@
+// This is a CSS-only solution to animate a checkbox to appear like it is being drawn into the checkbox
+
+// Checkboxes
+input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    margin: 0 0 1px 0;
+}
+
+/* Hide the Ordinary Checkbox */
+body:not(.page-admin-content) input[type="checkbox"] {
+    display: none;
+}
+
+@mixin basic-checkbox {
+    label {
+        position: relative;
+        margin-left: 23px;
+//        font-size: 20px;
+        cursor: pointer;
+        padding: 6px 10px 0 0;
+    }
+    label:before, label:after {
+        font-family: FontAwesome;
+        
+        color: $medgray;
+        /*absolutely positioned*/
+        position: absolute; top: 2px; left: -23px; right: 10px;
+    }
+    label:before {  // before is checkbox
+        content: '\f096'; /*checkbox unchecked */
+        font-size: 19px;
+    }
+    label:after {  // after is checkmark
+        content: '\f00c'; /*checkbox checked*/
+        max-width: 0;
+        overflow: hidden;
+        opacity: 0.5;
+        font-size: 18px;
+        top: -1px;
+        left: -22px;
+        color: $blue;
+
+        -webkit-transition: all 0.50s;
+        -moz-transition: all 0.50s;
+        -o-transition: all 0.50s;
+         transition: all 0.50s;
+    }
+}
+.js-form-type-checkbox {   
+    // basic for editing and adding nodes
+   @include basic-checkbox; 
+}
+// checkboxes for views better exposed filters
+.form-type-bef-checkbox {
+    @include basic-checkbox; 
+    label {
+        font-size: 13px;  // smaller checkbox
+        margin-left: 28px;
+        padding: 5px 0px 0 0;
+    }
+    label:before, label:after {
+//        color: $navy;
+    }
+    label:before {
+        font-size: 20px;
+    }
+    label:after {
+        font-size: 19px;
+        left: -26px;
+        top: -1px;
+    }
+    
+}
+// firefox smaller size
+.ff .form-type-bef-checkbox {
+    label {
+//        font-size: 13px; 
+	}
+}
+/* Animating the Checkbox Icon */
+input[type="checkbox"]:checked ~ label:after {
+    max-width: 25px;
+    opacity: 1;
+    margin-right: 35px;
+}
+
